@@ -3,7 +3,10 @@ RetinaFace windows
 
 Install
 
-Install MXNet with GPU support.
+Install MXNet with CPU support. Use command 'pip install mxnet'
+
+Modify
+Modify test.py "gpuid = -1" to use CPU cores
 
 Testing
 
